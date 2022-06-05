@@ -43,7 +43,7 @@ namespace SKYNET.INI
                     }
                     try
                     {
-                        MethodInfo? setMethod = PropertyInfo.GetSetMethod(true);
+                        MethodInfo setMethod = PropertyInfo.GetSetMethod(true);
                         if (setMethod != null)
                             PropertyInfo.SetValue(obj, processedValue);
                     }
