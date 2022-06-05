@@ -2,10 +2,10 @@
 <p align="center">This is a small library for Serialize - Deserialize objects and save them as ini settings files</p>
 <p align="center">
     <img src="https://img.shields.io/nuget/dt/INISerializer?label=Nuget%20Downloads&style=for-the-badge" />
+    <img src="https://img.shields.io/github/downloads/Hackerprod/-SKYNET-INISerializer/total?style=for-the-badge" />
     <img src="https://img.shields.io/github/contributors/Hackerprod/-SKYNET-INISerializer?style=for-the-badge" />
     <img src="https://img.shields.io/github/forks/Hackerprod/-SKYNET-INISerializer?style=for-the-badge" alt="Project forks">
     <img src="https://img.shields.io/github/stars/Hackerprod/-SKYNET-INISerializer?label=Project%20Stars%21%21%21&style=for-the-badge" alt="Project stars">
-    <img src="https://img.shields.io/github/issues/Hackerprod/-SKYNET-INISerializer?style=for-the-badge" alt="Project issues">
 </p>
 
 
@@ -284,5 +284,8 @@ private static void INISerializer_OnErrorMessage(object sender, string error)
 }
 ```
 
-## Download from Nuget
+### Download from Nuget
 https://www.nuget.org/packages/INISerializer/
+
+### Download from Releases
+https://github.com/Hackerprod/-SKYNET-INISerializer/releases
