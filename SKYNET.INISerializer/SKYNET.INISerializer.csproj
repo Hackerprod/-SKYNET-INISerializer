@@ -41,6 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="INIAttributes.cs" />
+    <Compile Include="INIBase.cs" />
+    <Compile Include="INIDeserialization.cs" />
+    <Compile Include="INISerialization.cs" />
+    <Compile Include="INISerializer.cs" />
+    <Compile Include="INIUtils.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
