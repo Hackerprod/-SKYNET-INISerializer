@@ -77,9 +77,6 @@ namespace SKYNET
         public int Age { get; set; }
 
         [INISection("User Info")]
-        public string Language { get; set; }
-
-        [INISection("User Info")]
         public SexType Sex { get; set; }
 
         [INISection("User Info")]
@@ -151,7 +148,6 @@ Settings created = new Settings()
 {
     Name = "Hackerprod",
     Age = 33,
-    Language = "spanish",
     Birthday = new DateTime(1989, 04, 15),
     Sex = SexType.Male,
     Height = 1.72,
@@ -178,7 +174,6 @@ Output
 [User Info]
 Name = Hackerprod
 Age = 33
-Language = spanish
 Sex = Male
 Height = 1,72
 Birthday = 15/04/1989 12:00:00
@@ -215,7 +210,6 @@ Settings deserialized = INISerializer.Deserialize<Settings>(serializedSettings);
 Console.WriteLine(
 "Name = "            + deserialized.Name + Environment.NewLine +
 "Age = "             + deserialized.Age + Environment.NewLine +
-"Language = "        + deserialized.Language + Environment.NewLine +
 "Birthday = "        + deserialized.Birthday + Environment.NewLine +
 "Sex = "             + deserialized.Sex + Environment.NewLine +
 "Height = "          + deserialized.Height + Environment.NewLine +
